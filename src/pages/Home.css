@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+.home {
+    padding-top: 100px;
+    background-color: #1a1a1a;
+    color: white;
+    align-items: center;
+}
+
+.introDiv {
+    height: 50%;
+}
+
+.nameArea{
+    font-family: 'Oswald', sans-serif;
+    font-size: 69px;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+      0 0 20px #fff,
+      0 0 40px #fff,
+      0 0 80px #fff,
+      0 0 150px #fff;
+
+      animation: blink 5s infinite;
+      -webkit-animation: blink 5s infinite;
+    }
+
+.introPictureDiv{
+    height: 50%;
+}
+
+.introParagraph {
+    width: 50%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+@-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+
+        text-shadow:
+            0 0 20px #fff,
+            0 0 40px #fff,
+            0 0 80px #fff,
+            0 0 150px #fff;  
+        
+        color: #fff;
+    }
+  }
+  
+
+  @keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+
+        text-shadow:
+            0 0 20px #fff,
+            0 0 40px #fff,
+            0 0 80px #fff,
+            0 0 150px #fff;     
+            
+        color: #fff;
+    }
+  }
+
+
+  @keyframes bounce {
+    0%,20%,50%,80%,to {
+        transform: translateZ(-2px) translateY(5px)
+    }
+
+    40% {
+        transform: rotateY(180deg) translateZ(-2px) translateY(-35px)
+    }
+
+    60% {
+        transform: translateZ(-2px) translateY(-25px)
+    }
+};
+
+body {
+
+}
+
+h3 {
+    padding-top: 300px;
+    font-size: 3.5rem;
+    line-height: 80%;
+    transform: rotateX(0) rotateY(-25deg);
+    text-transform: uppercase;
+    text-align: center;
+    color: #b9dfff;
+    color: #fff;
+    font-family: "Zefani";
+    font-family: 'Abril Fatface';
+    margin: 3rem auto;
+    position: relative;
+    /* padding: 2rem 0 9rem; */
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #fff,0 0 35px #000,0 0 40px #000;
+    width: 50%;
+    bottom: 0rem;
+    z-index: 0;
+}
+
+.scroll-more {
+    color: white;
+    text-align: center;
+    width: inherit;
+    position: absolute;
+    /* margin: 0 auto; */
+    font-size: 25rem;
+    opacity: 1;
+    transition: opacity .3s ease;
+    font-family: monospace;
+    pointer-events: none;
+    z-index: -1;
+    transform-origin: center;
+    -webkit-animation: bounce 3s cubic-bezier(.37,0,.21,1.02) infinite,fonts 5s linear infinite;
+    animation: bounce 3s cubic-bezier(.37,0,.21,1.02) infinite,fonts 5s linear infinite;
+}
+
+#arrow1{
+  left: calc(50% + 425px);
+  bottom: 25rem;
+}
+
+#arrow2 {
+  left: calc(50% - 750px);
+  bottom: 25rem;
+}
+  
+  .personalLinks {
+  
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding-top: 100px;  
+  }
+  
+  
+  .Link-button {
+  
+    background: #1a1a1a;
+    color: white;
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 200%;
+    padding: 0;
+    text-align: center;
+    transition: background-color .3s ease-in-out;
+    transform: translateY(-150%);
+  }
+
+  .Link-button:hover{
+    background: rgb(158, 153, 153);
+  }

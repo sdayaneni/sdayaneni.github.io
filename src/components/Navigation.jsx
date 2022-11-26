@@ -19,9 +19,8 @@ function Navigation () {
                     <div className = "menu">
 
                         <ul className = "pageLinks">
-
-                            <li className = "navBarEntry"><Link activeClass = "active" to = 'more' smooth = {true} offset = {-70}  duration = {1000}  className = "link"> More! </Link></li>
                             <li className = "navBarEntry"><Link activeClass = "active" to = 'project-div' smooth = {true} offset = {-70}  duration = {750}  className = "link"> My Projects </Link></li>
+                            <li className = "navBarEntry"><Link activeClass = "active" to = 'aboutMeDiv' smooth = {true} offset = {-70}  duration = {1000}  className = "link"> About Me </Link></li>
                             <li className = "navBarEntry"><Link activeClass = "active" to = 'home' smooth = {true} offset = {-70}  duration = {750}  className = "link"> Home </Link></li>
                         </ul>
 
@@ -45,9 +44,9 @@ function Navigation () {
 
                     <ul className = "doNothing">
 
+                        <li className = "mobileNavBarEntry"><Link onClick = {toggleClass} activeClass = "active" to = 'aboutMeDiv' smooth = {true} offset = {-70}  duration = {1000}  className = "mobileLink"> About Me </Link></li>
                         <li className = "mobileNavBarEntry"><Link onClick = {toggleClass} activeClass = "active" to = 'home' smooth = {true} offset = {-70}  duration = {750}  className = "mobileLink"> Home </Link></li>
                         <li className = "mobileNavBarEntry"><Link onClick = {toggleClass} activeClass = "active" to = 'project-div' smooth = {true} offset = {-70}  duration = {750}  className = "mobileLink"> My Projects </Link></li>
-                        <li className = "mobileNavBarEntry"><Link onClick = {toggleClass} activeClass = "active" to = 'more' smooth = {true} offset = {-70}  duration = {1000}  className = "mobileLink"> More! </Link></li>
 
                     </ul>
 
