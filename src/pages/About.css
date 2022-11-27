@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.aboutMeDiv {
+    padding-bottom: 150px;
+}
+
+.header {
+    font-size: 75px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.description {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
