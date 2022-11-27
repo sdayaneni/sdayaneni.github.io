@@ -14,7 +14,10 @@ export const ProjectData = [
             rubeGoldberg,
 
         description:
-            'Rube Goldberg Machine Designed with Matter.js.'
+            'Rube Goldberg Machine Designed with Matter.js.',
+        
+        link :
+          'https://github.com/SidD11111/rube-goldberg'
     },
     {
       name:
@@ -24,7 +27,10 @@ export const ProjectData = [
             connectTheDots,
 
             description:
-                'Simple Android Mobile Game Inspired by Flow.'
+                'Simple Android Mobile Game Inspired by Flow.',
+        
+            link :
+              'https://github.com/SidD11111/connect-the-dots'
     },
     {
       name:
@@ -34,7 +40,10 @@ export const ProjectData = [
             travelApp,
 
             description:
-                'Vacation Planning App That Allows you to Search and Designate Hotels, Restaurants, and Attractions for Your Next Trip.'    
+                'Vacation Planning App That Allows you to Search and Designate Hotels, Restaurants, and Attractions for Your Next Trip.',
+    
+            link :
+              'https://github.com/SidD11111/travelApp'    
     },
     {
       name:
@@ -44,7 +53,10 @@ export const ProjectData = [
             sportsWebscraper,
 
             description:
-                "Simple Python Script that Returns the Top Headlines from ESPN's Website"    
+                "Simple Python Script that Returns the Top Headlines from ESPN's Website",
+        
+            link :
+              'https://github.com/SidD11111/sports-webscraper'    
     },
     {
       name:
@@ -54,7 +66,10 @@ export const ProjectData = [
             jeopardy,
 
             description:
-                'Basic Jeopardy Template Designed with React.js.'    
+                'Basic Jeopardy Template Designed with React.js.',
+        
+            link :
+              'https://github.com/SidD11111/reactjs-jeopardy'    
     },
     {
         name:
@@ -64,6 +79,9 @@ export const ProjectData = [
                 runForWater,
 
                 description:
-                "Website Designed With React.js for a 5K Run That my Friends and I Hosted."
+                "Website Designed With React.js for a 5K Run That my Friends and I Hosted.",
+        
+                link :
+                  'https://github.com/SidD11111/run-for-water'
     }
   ];

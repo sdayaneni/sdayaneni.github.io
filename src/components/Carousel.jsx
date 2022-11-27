@@ -33,7 +33,7 @@ const Carousel = ({ projects }) => {
                 key={index}
             >
                 {index === current && (
-                <Project name = {project.name} img = {project.image} description = {project.description}/>
+                <Project name = {project.name} img = {project.image} description = {project.description} link = {project.link}/>
                 )}
             </div>
             );

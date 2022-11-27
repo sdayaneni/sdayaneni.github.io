@@ -34,3 +34,7 @@
   font-family: 'Oswald', sans-serif;
 
 }
+
+#linkToRepo {
+  margin-top: calc(100% - 405px);
+}
