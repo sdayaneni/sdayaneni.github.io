@@ -3,6 +3,7 @@ import connectTheDots from '../assets/connectTheDots.png';
 import rubeGoldberg from '../assets/rubeGoldberg.png';
 import runForWater from '../assets/runForWater.png';
 import travelApp from '../assets/travelApp.png';
+import sportsWebscraper from '../assets/sports-webscraper.png'
 
 export const ProjectData = [
     {
@@ -40,10 +41,10 @@ export const ProjectData = [
         'Sports Webscraper',
 
         image:
-            "connectTheDots.png",
+            sportsWebscraper,
 
             description:
-                "Simple Webscraper that Returns the Top Headlines from ESPN's Website"    
+                "Simple Python Script that Returns the Top Headlines from ESPN's Website"    
     },
     {
       name:

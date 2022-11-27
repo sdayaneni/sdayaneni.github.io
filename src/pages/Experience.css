@@ -1,4 +1,12 @@
 .experienceDiv {
     background-color: #1a1a1a;
     color: #fff;
+    padding-bottom: 115px;
+}
+
+.allShowcases {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
