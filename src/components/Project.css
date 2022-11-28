@@ -7,8 +7,6 @@
     cursor: pointer;
   }
 
-/* MENU ITEM STYLING */
-
 .project-div {
   border-radius: 15px;
   width: 500px;
@@ -38,3 +36,12 @@
 #linkToRepo {
   margin-top: calc(100% - 500px);
 }
+
+  /* mobile mode */
+  @media (max-width: 768px) { 
+    .project-div {  width: 350px;}
+    #linkToRepo {
+      margin-left: 275px;
+      margin-top: calc(100% - 367px);
+    }
+  }
