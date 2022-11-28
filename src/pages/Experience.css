@@ -9,4 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
+
+  /* mobile mode */
+  @media (max-width: 768px) { 
+
+    .allShowcases{align-items: center; justify-content: center; display: block;}
+  
+  }

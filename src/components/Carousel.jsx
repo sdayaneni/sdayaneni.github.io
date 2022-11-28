@@ -39,6 +39,8 @@ const Carousel = ({ projects }) => {
             );
         })}
         </section>
+
+        <p className = 'showMore'>helloooooo</p>
     </div>
   );
 };

@@ -78,7 +78,7 @@
     position: fixed;
     z-index: 300;
     top: 15px;
-    right: 15px;
+    right: 70px;
     user-select: none;
     appearance: none;
     border: none;
@@ -101,7 +101,7 @@
     background-color: #EEEEEE;
     border-radius: 6px;
     z-index: 10000;
-    transform-origin: 0 0;
+    /* transform-origin: 0 0; */
     
 }
 
@@ -145,7 +145,7 @@
 	margin: 0 auto 16px;
 	text-align: center;
 	padding: 12px 16px;
-	background-color: #12acff;
+	background-color: #1a1a1a;
 	color: #FFF;
 	text-decoration: none;
 	transition: 0.4s;
