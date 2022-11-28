@@ -11,7 +11,6 @@ const Project = (props) => {
                 <p className = "descriptionParagraph">{props.description}</p>
                 <button onClick = {() => window.open(props.link, '_blank', 'noopener, noreferrer')} id = 'linkToRepo' className = "Link-button fa fa-brands fa-github" href = {props.link}/>
             </div>
-
         </div>
     );
 }

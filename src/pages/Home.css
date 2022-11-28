@@ -154,21 +154,16 @@ h3 {
 
 #arrow1{
   left: calc(50% + 425px);
-  bottom: 25rem;
+  bottom: 30rem;
 }
 
 #arrow2 {
   left: calc(50% - 750px);
-  bottom: 25rem;
+  bottom: 30rem;
 }
   
   .personalLinks {
-  
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
     align-items: center;
-    padding-top: 100px;  
   }
   
   
@@ -184,12 +179,26 @@ h3 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     font-size: 200%;
-    padding: 0;
     text-align: center;
     transition: background-color .3s ease-in-out;
-    transform: translateY(-150%);
   }
 
   .Link-button:hover{
     background: rgb(158, 153, 153);
   }
+
+  .picOfMe {
+    width: 20%;
+    object-fit: cover;
+    border-radius: 100%;
+    /* margin: .5em; */
+    transition: .3s ease;
+    border: 0.35em solid #fff;
+  }
+
+  /* mobile mode */
+@media (max-width: 768px) { 
+
+  h3{display: none};
+
+}

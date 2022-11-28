@@ -1,4 +1,5 @@
 import "./Home.css";
+import Sid from '../assets/sid.png'
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
             </div>
 
             <div className = "introPictureDiv">
-                <p>picture goes here</p>
+                <img src = {Sid} className = 'picOfMe'></img>
             </div>
 
             <h3>
