@@ -8,42 +8,43 @@ import sportsWebscraper from '../assets/sports-webscraper.png'
 export const ProjectData = [
     {
       name:
-        'Rube Goldberg',
+      'Connect the Dots',
 
-        image:
-            rubeGoldberg,
+      image:
+          connectTheDots,
 
-        description:
-            'Rube Goldberg Machine Designed with Matter.js.',
-        
-        link :
-          'https://github.com/SidD11111/rube-goldberg'
+          description:
+              'Simple Android Mobile Game Inspired by Flow.',
+      
+          link :
+            'https://github.com/SidD11111/connect-the-dots'
     },
     {
       name:
-        'Connect the Dots',
+      'Travel App',
 
-        image:
-            connectTheDots,
+      image:
+          travelApp,
 
-            description:
-                'Simple Android Mobile Game Inspired by Flow.',
-        
-            link :
-              'https://github.com/SidD11111/connect-the-dots'
+          description:
+              'Vacation Planning App That Allows you to Search and Designate Hotels, Restaurants, and Attractions for Your Next Trip.',
+  
+          link :
+            'https://github.com/SidD11111/travelApp'  
     },
     {
+
       name:
-        'Travel App',
+      'Run for Water',
 
-        image:
-            travelApp,
+      image:
+          runForWater,
 
-            description:
-                'Vacation Planning App That Allows you to Search and Designate Hotels, Restaurants, and Attractions for Your Next Trip.',
-    
-            link :
-              'https://github.com/SidD11111/travelApp'    
+          description:
+          "Website Designed With React.js for a 5K Run That my Friends and I Hosted.",
+  
+          link :
+            'https://github.com/SidD11111/run-for-water'  
     },
     {
       name:
@@ -72,16 +73,16 @@ export const ProjectData = [
               'https://github.com/SidD11111/reactjs-jeopardy'    
     },
     {
-        name:
-            'Run for Water',
+      name:
+        'Rube Goldberg',
 
-            image:
-                runForWater,
+        image:
+            rubeGoldberg,
 
-                description:
-                "Website Designed With React.js for a 5K Run That my Friends and I Hosted.",
+        description:
+            'Rube Goldberg Machine Designed with Matter.js.',
         
-                link :
-                  'https://github.com/SidD11111/run-for-water'
+        link :
+          'https://github.com/SidD11111/rube-goldberg'
     }
   ];
