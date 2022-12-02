@@ -5,7 +5,7 @@ import './Navigation.css';
 
 function Navigation () {
 
-    const [isActive, setActive] = useState(true);
+    const [isActive, setActive] = useState(false);
     
     const toggleClass = () => { setActive(!isActive); };
 
@@ -40,7 +40,7 @@ function Navigation () {
 
             </button>
 
-            <div className = {isActive ? "mobileMenuSection" : null}>
+            <div className = {isActive ? "mobileMenuSectionActive" : "mobileMenuSection"}>
                 
                 <nav className = "mobileNavBar">
 
