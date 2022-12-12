@@ -14,7 +14,7 @@ const Experience = () => {
     return (
         <div className = 'experienceDiv'>
             <p className = 'header'>Experience</p>
-            <p className = "description">I Have Experience Working With the Following Languages + Frameworks!</p>
+            <p className = "description">I Have Experience Working With the Following Technologies!</p>
 
             <div data-aos = 'fade-up' data-aos-duration = '1500' className = 'allShowcases'>
                 <Showcase name = "Python" img = {Python}/>
