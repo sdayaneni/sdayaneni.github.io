@@ -8,11 +8,12 @@
     background-color: #1a1a1a;
     color: white;
     align-items: center;
+    height: 100vh
 }
 
-.introDiv {
+/* .introDiv {
     height: 50%;
-}
+} */
 
 .nameArea{
     font-family: 'Oswald', sans-serif;
@@ -25,8 +26,8 @@
       0 0 80px #fff,
       0 0 150px #fff;
 
-      animation: blink 5s infinite;
-      -webkit-animation: blink 5s infinite;
+      /* animation: blink 5s infinite;
+      -webkit-animation: blink 5s infinite; */
     }
 
 .introPictureDiv{

@@ -4,9 +4,25 @@ import rubeGoldberg from '../assets/rubeGoldberg.png';
 import runForWater from '../assets/runForWater.png';
 import travelApp from '../assets/travelApp.png';
 import sportsWebscraper from '../assets/sports-webscraper.png'
+import sdfnFantasy from '../assets/sdfn.png'
 
 export const ProjectData = [
+  {
+      
+    name:
+    'SDFN Fantasy Football',
+
+    image:
+        sdfnFantasy,
+
+        description:
+            'React Native College Football Fantasy Football App. Utilizes Machine Learning Algorithms to Provide Predictions and Recommendations for Lineup Adjustments!',
+    
+        link :
+          'https://github.com/SidD11111/connect-the-dots'
+  },
     {
+      
       name:
       'Connect the Dots',
 
@@ -31,6 +47,19 @@ export const ProjectData = [
   
           link :
             'https://github.com/SidD11111/travelApp'  
+    },
+    {
+      name:
+        'Rube Goldberg',
+
+        image:
+            rubeGoldberg,
+
+        description:
+            'Rube Goldberg Machine Designed with Matter.js.',
+        
+        link :
+          'https://github.com/SidD11111/rube-goldberg'
     },
     {
 
@@ -72,17 +101,4 @@ export const ProjectData = [
             link :
               'https://github.com/SidD11111/reactjs-jeopardy'    
     },
-    {
-      name:
-        'Rube Goldberg',
-
-        image:
-            rubeGoldberg,
-
-        description:
-            'Rube Goldberg Machine Designed with Matter.js.',
-        
-        link :
-          'https://github.com/SidD11111/rube-goldberg'
-    }
   ];
