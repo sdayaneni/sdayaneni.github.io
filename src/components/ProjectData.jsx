@@ -16,38 +16,38 @@ export const ProjectData = [
         sdfnFantasy,
 
         description:
-            'React Native College Football Fantasy Football App. Utilizes Machine Learning Algorithms to Provide Predictions and Recommendations for Lineup Adjustments!',
+            'React Native College Football Fantasy Football App.',
     
         link :
           'https://github.com/SidD11111/connect-the-dots'
   },
-    {
+    // {
       
-      name:
-      'Connect the Dots',
+    //   name:
+    //   'Connect the Dots',
 
-      image:
-          connectTheDots,
+    //   image:
+    //       connectTheDots,
 
-          description:
-              'Simple Android Mobile Game Inspired by Flow.',
+    //       description:
+    //           'Simple Android Mobile Game Inspired by Flow.',
       
-          link :
-            'https://github.com/SidD11111/connect-the-dots'
-    },
-    {
-      name:
-      'Travel App',
+    //       link :
+    //         'https://github.com/SidD11111/connect-the-dots'
+    // },
+    // {
+    //   name:
+    //   'Travel App',
 
-      image:
-          travelApp,
+    //   image:
+    //       travelApp,
 
-          description:
-              'Vacation Planning App That Allows you to Search and Designate Hotels, Restaurants, and Attractions for Your Next Trip.',
+    //       description:
+    //           'Vacation Planning App That Allows you to Search and Designate Hotels, Restaurants, and Attractions for Your Next Trip.',
   
-          link :
-            'https://github.com/SidD11111/travelApp'  
-    },
+    //       link :
+    //         'https://github.com/SidD11111/travelApp'  
+    // },
     {
       name:
         'Rube Goldberg',
@@ -70,7 +70,7 @@ export const ProjectData = [
           runForWater,
 
           description:
-          "Website Designed With React.js for a 5K Run That my Friends and I Hosted.",
+          "Website Designed With React.js the Nonprofit That my Friends and I Created.",
   
           link :
             'https://github.com/SidD11111/run-for-water'  
@@ -88,17 +88,17 @@ export const ProjectData = [
             link :
               'https://github.com/SidD11111/sports-webscraper'    
     },
-    {
-      name:
-        'React Jeopardy',
+    // {
+    //   name:
+    //     'React Jeopardy',
 
-        image:
-            jeopardy,
+    //     image:
+    //         jeopardy,
 
-            description:
-                'Basic Jeopardy Template Designed with React.js.',
+    //         description:
+    //             'Basic Jeopardy Template Designed with React.js.',
         
-            link :
-              'https://github.com/SidD11111/reactjs-jeopardy'    
-    },
+    //         link :
+    //           'https://github.com/SidD11111/reactjs-jeopardy'    
+    // },
   ];

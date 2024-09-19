@@ -12,7 +12,7 @@ function App() {
       <Navigation/>
       <Home/>
       {/* <About/> */}
-      <Experience/>
+      {/* <Experience/> */}
       <Carousel projects = {ProjectData}/>
 
 

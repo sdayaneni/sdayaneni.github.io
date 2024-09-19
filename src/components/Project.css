@@ -2,7 +2,7 @@
 
 
   .project-div:hover{
-    box-shadow: 0px 3px 10px rgb(119, 118, 118);
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
     transition: 0.3s ease-in;
     cursor: pointer;
   }
@@ -14,7 +14,7 @@
   /* margin: 40px; */
   box-shadow: 0px 3px 15px rgba(163, 162, 162, 0.2);
   text-align: center;
-  color: #fff;
+  color: #1a1a1a;
 }
 
 
@@ -36,6 +36,8 @@
 
 #linkToRepo {
   margin-top: calc(100% - 500px);
+  /* background-color: #fff; */
+
 }
 
   /* mobile mode */

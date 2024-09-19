@@ -7,12 +7,12 @@ const Home = () => {
 
             <div className = "introDiv">
                 <h1 className = "nameArea">Hi! I'm Sid</h1>
-                <p className = "introParagraph">I'm a Mathematics & Computer Science student at the University of Illinois at Urbana-Champaign!</p>
+                <p className = "introParagraph">I'm a Mathematics & Computer Science student at the University of Illinois at Urbana-Champaign</p>
             </div>
 
             <div className = "personalLinks">
                 <ul>
-                    {/* <button onClick = {() => window.open("https://github.com/SidD11111", '_blank', 'noopener, noreferrer')} className = "Link-button fa fa-brands fa-github" href = "https://github.com/SidD11111"/> */}
+                    <button onClick = {() => window.open("https://github.com/sdayaneni", '_blank', 'noopener, noreferrer')} className = "Link-button fa fa-brands fa-github" href = "https://github.com/SidD11111"/>
                     <button onClick = {() => window.open("", '_blank', 'noopener, noreferrer')} className = "Link-button fa fa-brands fa-linkedin" href = ""/>
                     <button onClick = {() => window.open("https://mail.google.com/mail/?view=cm&fs=1&to=siddharth.dayaneni@gmail.com", '_blank', 'noopener, noreferrer')} className = "Link-button fa fa-brands fa-envelope" href = "https://mail.google.com/mail/?view=cm&fs=1&to=siddharth.dayaneni@gmail.com"/>
 
