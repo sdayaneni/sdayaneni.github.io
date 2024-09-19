@@ -5,6 +5,8 @@ import runForWater from '../assets/runForWater.png';
 import travelApp from '../assets/travelApp.png';
 import sportsWebscraper from '../assets/sports-webscraper.png'
 import sdfnFantasy from '../assets/sdfn.png'
+import marchMadness from '../assets/marchmadness.png'
+import compscikids from '../assets/compscikids.png'
 
 export const ProjectData = [
   {
@@ -16,7 +18,21 @@ export const ProjectData = [
         sdfnFantasy,
 
         description:
-            'React Native College Football Fantasy Football App.',
+            'My College Football Fantasy Football App.',
+    
+        link :
+          'https://github.com/SidD11111/connect-the-dots'
+  },
+  {
+      
+    name:
+    'March Madness Bracket Predictor',
+
+    image:
+        marchMadness,
+
+        description:
+            'Logistic Regression Machine Learning Model to Predict March Madness',
     
         link :
           'https://github.com/SidD11111/connect-the-dots'
@@ -56,11 +72,26 @@ export const ProjectData = [
             rubeGoldberg,
 
         description:
-            'Rube Goldberg Machine Designed with Matter.js.',
+            'Virtual Rube Goldberg Machine Designed with Matter.js.',
         
         link :
           'https://github.com/SidD11111/rube-goldberg'
     },
+
+    {
+      name:
+        'CompSci Kids',
+
+        image:
+            compscikids,
+
+        description:
+            'Full Stack System Developed for CompSci Kids Organization',
+        
+        link :
+          'https://github.com/SidD11111/rube-goldberg'
+    },
+
     {
 
       name:
@@ -70,7 +101,7 @@ export const ProjectData = [
           runForWater,
 
           description:
-          "Website Designed With React.js the Nonprofit That my Friends and I Created.",
+          "Payment + Registration Site for Run for Water",
   
           link :
             'https://github.com/SidD11111/run-for-water'  
@@ -83,7 +114,7 @@ export const ProjectData = [
             sportsWebscraper,
 
             description:
-                "Simple Python Script that Returns the Top Headlines from ESPN's Website",
+                "Outputs + Formats Top Headlines from ESPN's Website Using Python",
         
             link :
               'https://github.com/SidD11111/sports-webscraper'    
