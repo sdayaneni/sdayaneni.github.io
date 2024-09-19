@@ -7,7 +7,7 @@ const Home = () => {
 
             <div className = "introDiv">
                 <h1 className = "nameArea">Hi! I'm Sid</h1>
-                <p className = "introParagraph">I'm a High School Incoming Senior With an Interest in Programming, Especially in the Fields of Machine Learning and Natural Language Processing.</p>
+                <p className = "introParagraph">I'm a Mathematics & Computer Science student at the University of Illinois at Urbana-Champaign!</p>
             </div>
 
             <div className = "personalLinks">
