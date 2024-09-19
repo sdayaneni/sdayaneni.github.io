@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fefe96f.css",
-    "main.js": "/static/js/main.9a70f1c9.js",
+    "main.css": "/static/css/main.f3209626.css",
+    "main.js": "/static/js/main.384089eb.js",
     "static/js/787.5f40ec28.chunk.js": "/static/js/787.5f40ec28.chunk.js",
     "static/media/sid.png": "/static/media/sid.74b2f5568b22e95c39ef.png",
     "static/media/sdfn.png": "/static/media/sdfn.2fcfada7d64bcc67c892.png",
+    "static/media/marchmadness.png": "/static/media/marchmadness.b3e626d4249a568cafb6.png",
     "static/media/runForWater.png": "/static/media/runForWater.d7ca865e20eb50cadea4.png",
+    "static/media/compscikids.png": "/static/media/compscikids.ae00a27a982f98971795.png",
     "static/media/jeopardy.png": "/static/media/jeopardy.d80768dc339a197df8ec.png",
     "static/media/rubeGoldberg.png": "/static/media/rubeGoldberg.4fde15fb28865e247304.png",
     "static/media/reactjs.png": "/static/media/reactjs.8a6fc0a24a800d1e0f4a.png",
@@ -17,12 +19,12 @@
     "static/media/font.woff2": "/static/media/font.b85aba51cf167bf2fe4a.woff2",
     "static/media/javascript.png": "/static/media/javascript.81a0172f3164d41eac3b.png",
     "index.html": "/index.html",
-    "main.9fefe96f.css.map": "/static/css/main.9fefe96f.css.map",
-    "main.9a70f1c9.js.map": "/static/js/main.9a70f1c9.js.map",
+    "main.f3209626.css.map": "/static/css/main.f3209626.css.map",
+    "main.384089eb.js.map": "/static/js/main.384089eb.js.map",
     "787.5f40ec28.chunk.js.map": "/static/js/787.5f40ec28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fefe96f.css",
-    "static/js/main.9a70f1c9.js"
+    "static/css/main.f3209626.css",
+    "static/js/main.384089eb.js"
   ]
 }
