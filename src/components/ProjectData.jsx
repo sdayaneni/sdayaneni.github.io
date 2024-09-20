@@ -18,10 +18,10 @@ export const ProjectData = [
         sdfnFantasy,
 
         description:
-            'My College Football Fantasy Football App.',
+            'Mobile App for my Fantasy College Football Platform.',
     
         link :
-          'https://github.com/SidD11111/connect-the-dots'
+          'https://github.com/sdayaneni/cfb-ff'
   },
   {
       
@@ -35,7 +35,7 @@ export const ProjectData = [
             'Logistic Regression Machine Learning Model to Predict March Madness',
     
         link :
-          'https://github.com/SidD11111/connect-the-dots'
+          'https://github.com/sdayaneni/march-madness-ml'
   },
     // {
       
@@ -75,7 +75,7 @@ export const ProjectData = [
             'Virtual Rube Goldberg Machine Designed with Matter.js.',
         
         link :
-          'https://github.com/SidD11111/rube-goldberg'
+          'https://github.com/sdayaneni/rube-goldberg'
     },
 
     {
@@ -89,7 +89,7 @@ export const ProjectData = [
             'Full Stack System Developed for CompSci Kids Organization',
         
         link :
-          'https://github.com/SidD11111/rube-goldberg'
+          'https://github.com/sdayaneni/CSK-New-Website'
     },
 
     {
@@ -101,10 +101,10 @@ export const ProjectData = [
           runForWater,
 
           description:
-          "Payment + Registration Site for Run for Water",
+          "Payment + Registration Site for the Run for Water Event",
   
           link :
-            'https://github.com/SidD11111/run-for-water'  
+            'https://github.com/sdayaneni/run-for-water-2023'  
     },
     {
       name:
@@ -117,7 +117,7 @@ export const ProjectData = [
                 "Outputs + Formats Top Headlines from ESPN's Website Using Python",
         
             link :
-              'https://github.com/SidD11111/sports-webscraper'    
+              'https://github.com/sdayaneni/sports-webscraper'    
     },
     // {
     //   name:

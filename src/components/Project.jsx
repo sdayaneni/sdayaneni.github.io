@@ -9,7 +9,7 @@ const Project = (props) => {
             <div className = "descriptionSection">
                 <h1 className = "project-name">{props.name}</h1>
                 <p className = "descriptionParagraph">{props.description}</p>
-                {/* <button onClick = {() => window.open(props.link, '_blank', 'noopener, noreferrer')} id = 'linkToRepo' className = "Link-button fa fa-brands fa-github" href = {props.link}/> */}
+                <button onClick = {() => window.open(props.link, '_blank', 'noopener, noreferrer')} id = 'linkToRepo' className = "Link-button fa fa-brands fa-github" href = {props.link}/>
             </div>
         </div>
     );

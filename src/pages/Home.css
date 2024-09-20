@@ -20,7 +20,7 @@
     font-size: 69px;
     text-align: center;
     color: #fff;
-    text-shadow:
+    /* text-shadow:
       0 0 20px #fff,
       0 0 40px #fff,
       0 0 80px #fff,
@@ -28,7 +28,7 @@
 
       /* animation: blink 5s infinite;
       -webkit-animation: blink 5s infinite; */
-    }
+    } */
 
 .introPictureDiv{
     height: 50%;
