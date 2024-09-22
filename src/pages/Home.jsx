@@ -13,7 +13,7 @@ const Home = () => {
             <div className = "personalLinks">
                 <ul>
                     <button onClick = {() => window.open("https://github.com/sdayaneni", '_blank', 'noopener, noreferrer')} className = "Link-button fa fa-brands fa-github" href = "https://github.com/SidD11111"/>
-                    <button onClick = {() => window.open("", '_blank', 'noopener, noreferrer')} className = "Link-button fa fa-brands fa-linkedin" href = ""/>
+                    <button onClick = {() => window.open("https://www.linkedin.com/in/siddharth-dayaneni-025119262/", '_blank', 'noopener, noreferrer')} className = "Link-button fa fa-brands fa-linkedin" href = ""/>
                     <button onClick = {() => window.open("https://mail.google.com/mail/?view=cm&fs=1&to=siddharth.dayaneni@gmail.com", '_blank', 'noopener, noreferrer')} className = "Link-button fa fa-brands fa-envelope" href = "https://mail.google.com/mail/?view=cm&fs=1&to=siddharth.dayaneni@gmail.com"/>
 
                 </ul>
