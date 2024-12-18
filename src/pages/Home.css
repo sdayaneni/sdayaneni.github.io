@@ -200,6 +200,19 @@ h3 {
   /* mobile mode */
 @media (max-width: 768px) { 
 
-  h3{display: none};
+  h3{display: none}
+
+  .picOfMe {
+    width: 60%
+  }
+
+  .introParagraph {
+    width: 100%;
+  }
+
+  .introDiv{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
 }
