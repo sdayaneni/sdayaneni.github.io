@@ -11,6 +11,22 @@
     height: 100vh
 }
 
+.personalLinks {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: row;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+  width: 100%;
+}
+
+.personalLinks ul{
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: row;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+  width: 100%;
+}
+
 /* .introDiv {
     height: 50%;
 } */
@@ -41,81 +57,6 @@
     text-align: center;
     margin: auto;
 }
-
-@-webkit-keyframes blink {
-    20%,
-    24%,
-    55% {
-      color: #111;
-      text-shadow: none;
-    }
-  
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-
-        text-shadow:
-            0 0 20px #fff,
-            0 0 40px #fff,
-            0 0 80px #fff,
-            0 0 150px #fff;  
-        
-        color: #fff;
-    }
-  }
-  
-
-  @keyframes blink {
-    20%,
-    24%,
-    55% {
-      color: #111;
-      text-shadow: none;
-    }
-  
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-
-        text-shadow:
-            0 0 20px #fff,
-            0 0 40px #fff,
-            0 0 80px #fff,
-            0 0 150px #fff;     
-            
-        color: #fff;
-    }
-  }
-
-
-  @keyframes bounce {
-    0%,20%,50%,80%,to {
-        transform: translateZ(-2px) translateY(5px)
-    }
-
-    40% {
-        transform: rotateY(180deg) translateZ(-2px) translateY(-35px)
-    }
-
-    60% {
-        transform: translateZ(-2px) translateY(-25px)
-    }
-};
-
-body {
-
-}
-
 h3 {
     padding-top: 30vh;
     font-size: 3.5rem;
@@ -169,7 +110,9 @@ h3 {
   
   
   .Link-button {
-  
+    display: flex; /* Flexbox ensures the icon is centered */
+    justify-content: center; /* Center the icon horizontally */
+    align-items: center; /* Center the icon vertically */
     background: #1a1a1a;
     color: white;
     border: none;
@@ -179,11 +122,12 @@ h3 {
     cursor: pointer;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    font-size: 200%;
+    font-size: 2rem; /* Ensure font size is consistent */
     text-align: center;
     align-items: center;
     justify-content: center;
     transition: background-color .3s ease-in-out;
+    box-sizing: border-box; /* Prevent padding from altering size */
   }
 
   .Link-button:hover{
@@ -224,6 +168,18 @@ h3 {
 
   .picOfMe {
     border: none;
+  }
+
+  .personalLinks, .personalLinks ul {
+    flex-direction: row; /* Keep buttons in a single row */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+  .Link-button {
+      width: 4rem; /* Adjust size for mobile */
+      height: 4rem;
+      font-size: 2rem; /* Adjust font size for mobile */
   }
 
 }

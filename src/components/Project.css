@@ -60,9 +60,10 @@
     }
     #linkToRepo {
       position: absolute;
-      width: 45px;
-      height: 45px;
-      font-size: 30px;
+      margin-left: 5em;
+      width: 3.5rem;
+      height: 3.5rem;
+      font-size: 1.75rem;
       bottom: 2%; /* Adjust spacing for mobile */
       left: 30%; /* Adjust spacing for mobile */
       text-align: center;
