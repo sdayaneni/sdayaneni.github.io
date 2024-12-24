@@ -26,7 +26,7 @@ export const ProjectData = [
   {
       
     name:
-    'March Madness Bracket Predictor',
+    'March Madness Predictor',
 
     image:
         marchMadness,

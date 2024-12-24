@@ -53,9 +53,31 @@
 
   /* mobile mode */
   @media (max-width: 768px) { 
-    .project-div {  width: 350px;}
+    .project-div { 
+      width: 19em;
+      height: 29em;
+      position: relative; 
+    }
     #linkToRepo {
-      margin-left: 275px;
-      margin-top: calc(100% - 367px);
+      position: absolute;
+      margin-left: 5em;
+      /* margin-top: calc(100% - 367px); */
+      width: 45px;
+      height: 45px;
+      font-size: 30px;
+      bottom: 2%; /* Adjust spacing for mobile */
+      left: 30%; /* Adjust spacing for mobile */
+    }
+
+    .descriptionParagraph {
+      margin-top: 2%;
+      font-size: medium;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .project-div h1 {
+      font-family: 'Oswald', sans-serif;
+      margin-bottom: 0em;
+    
     }
   }

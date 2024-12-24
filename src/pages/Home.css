@@ -181,6 +181,8 @@ h3 {
     margin-right: 0.5rem;
     font-size: 200%;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     transition: background-color .3s ease-in-out;
   }
 
@@ -203,7 +205,8 @@ h3 {
   h3{display: none}
 
   .picOfMe {
-    width: 60%
+    width: 60%;
+    
   }
 
   .introParagraph {
@@ -216,7 +219,11 @@ h3 {
   }
 
   .home {
-    padding-top: 5vh;
+    padding-top: 2vh;
+  }
+
+  .picOfMe {
+    border: none;
   }
 
 }
