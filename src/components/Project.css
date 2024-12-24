@@ -60,13 +60,14 @@
     }
     #linkToRepo {
       position: absolute;
-      margin-left: 5em;
-      /* margin-top: calc(100% - 367px); */
       width: 45px;
       height: 45px;
       font-size: 30px;
       bottom: 2%; /* Adjust spacing for mobile */
       left: 30%; /* Adjust spacing for mobile */
+      text-align: center;
+      align-items: center;
+      justify-content: center;
     }
 
     .descriptionParagraph {
