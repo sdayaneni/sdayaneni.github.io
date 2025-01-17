@@ -21,7 +21,7 @@ export const ProjectData = [
             'Mobile App for my Fantasy College Football Platform.',
     
         link :
-          'https://github.com/sdayaneni/cfb-ff'
+          'https://docs.google.com/presentation/d/1PneZhC41BaG9chCVACA1MzF0R5lJuNkCNGP4aDSVc5U/edit?usp=sharing'
   },
   {
       
